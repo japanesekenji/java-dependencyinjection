@@ -10,10 +10,10 @@ public class StoreApplication {
     public static void main(String[] args) {
 
       ApplicationContext context = SpringApplication.run(StoreApplication.class, args);
-      //var orderService = context.getBean(OrderService.class);
+      var orderService = context.getBean(OrderService.class);
       var manager = context.getBean(NotificationManager.class);
       //var orderService = new OrderService(new PaypalPaymentService());
-      //  orderService.placeOrder();
+        orderService.placeOrder();
         manager.sendNotification("Hello World");
     }
 

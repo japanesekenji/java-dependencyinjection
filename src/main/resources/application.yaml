@@ -8,3 +8,11 @@ stripe:
   supported-currencies: USD,EUR,GBP
 payment:
   service: paypal
+user:
+  id: 01
+  email: test@gmail.com
+  password: 123456
+  name: John Mayhem
+mail:
+  host: admin@gmail.com
+  port: 8080

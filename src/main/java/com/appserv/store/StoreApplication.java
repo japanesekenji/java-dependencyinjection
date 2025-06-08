@@ -19,8 +19,8 @@ public class StoreApplication {
 
       //  manager.sendNotification("Hello World");
       //  context.close();
-        var UserService = context.getBean(UserService.class);
-        UserService.registerUser(new User(1L,"admin@gmail.com","admin","admin"));
+      //  var UserService = context.getBean(UserService.class);
+      //  UserService.registerUser(new User(1L,"admin@gmail.com","admin","admin"));
     }
 
 }
